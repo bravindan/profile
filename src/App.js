@@ -10,6 +10,7 @@ import code from "./images/code.png";
 import exp from "./images/exp.png";
 import design from "./images/design.png";
 import { useState } from "react";
+import './index.css'
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -18,8 +19,8 @@ function App() {
     <div className={darkMode ? "dark" : ""}>
       <main className="px-10 bg-white md:px-20 lg:px-40 dark:bg-black">
         <section className="min-h-screen ">
-          <nav className="flex justify-between py-10 mb-12 shadow-md dark:shadow-sm dark:shadow-slate-400">
-            <h1 className="text-xl font-semibold dark:text-gray-400">
+          <nav className="flex justify-between py-10 mb-12 ">
+            <h1 className="text-3xl font-semibold dark:text-gray-400 font-lobster ">
               Portfolio
             </h1>
             <ul className="flex items-center">
@@ -42,11 +43,11 @@ function App() {
             </ul>
           </nav>
           <div className="p-10 text-center">
-            <h2 className="py-2 text-5xl font-medium text-teal-600 md:text-6xl">
+            <h2 className="py-2 text-4xl font-medium text-teal-600 md:text-6xl ">
               Bravin Daniel
             </h2>
-            <h3 className="py-2 text-2xl md:text-3xl dark:text-gray-400">
-              Developer and Designer
+            <h3 className="py-2 text-xl md:text-3xl dark:text-gray-400">
+              Developer & Designer
             </h3>
 
             <p className="py-5 leading-8 text-gray-800 text-md md:text-xl dark:text-gray-400">
