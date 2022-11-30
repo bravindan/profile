@@ -107,7 +107,7 @@ function App() {
             </p>
           </div>
           <div className="gap-8 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3">
-            <div className="p-10 my-10 text-center shadow-lg rounded-xl dark:text-gray-400 dark:shadow-slate-700 dark:shadow-md hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-slate-400">
+            <div className="p-10 my-10 text-center shadow-lg rounded-xl dark:text-gray-400 dark:shadow-slate-700 dark:shadow-md hover:-translate-y-1 hover:scale-110 duration-300 ">
               <img
                 className="mx-auto"
                 src={design}
@@ -127,7 +127,7 @@ function App() {
                 Corel Draw
               </p>
             </div>
-            <div className="p-10 my-10 text-center shadow-lg rounded-xl dark:text-gray-400 dark:shadow-slate-700 dark:shadow-md hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-slate-400">
+            <div className="p-10 my-10 text-center shadow-lg rounded-xl dark:text-gray-400 dark:shadow-slate-700 dark:shadow-md hover:-translate-y-1 hover:scale-110 duration-300 ">
               <img
                 className="mx-auto"
                 src={code}
@@ -149,7 +149,7 @@ function App() {
                 HTML, CSS, Bootstrap & Tailwind CSS
               </p>
             </div>
-            <div className="p-10 my-10 text-center shadow-lg rounded-xl dark:text-gray-400 dark:shadow-slate-700 dark:shadow-md hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-slate-400">
+            <div className="p-10 my-10 text-center shadow-lg rounded-xl dark:text-gray-400 dark:shadow-slate-700 dark:shadow-md hover:-translate-y-1 hover:scale-110 duration-300 ">
               <img
                 className="mx-auto"
                 src={exp}
