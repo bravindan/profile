@@ -93,11 +93,11 @@ function App() {
               also collaborated with some talented developers to work on some
               projects like{" "}
               <span className="text-teal-500">
-                <a href="https://github.com/">Penta</a>
+                <a href="https://github.com/PentaUI/">Penta</a>
               </span>{" "}
               and{" "}
               <span className="text-teal-500">
-                <a href="https://github.com/">Gigsconnect</a>
+                <a href="https://github.com/kathukyabrian/gigs-connect-client">Gigsconnect</a>
               </span>{" "}
               among others.
             </p>
