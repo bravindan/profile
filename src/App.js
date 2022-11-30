@@ -106,8 +106,8 @@ function App() {
               and design, quality assuarance and project management
             </p>
           </div>
-          <div className="lg:flex gap-10">
-            <div className="p-10 my-10 text-center shadow-lg rounded-xl dark:text-gray-400 dark:shadow-slate-700 dark:shadow-md">
+          <div className="gap-8 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3">
+            <div className="p-10 my-10 text-center shadow-lg rounded-xl dark:text-gray-400 dark:shadow-slate-700 dark:shadow-md hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-slate-400">
               <img
                 className="mx-auto"
                 src={design}
@@ -127,7 +127,7 @@ function App() {
                 Corel Draw
               </p>
             </div>
-            <div className="p-10 my-10 text-center shadow-lg rounded-xl dark:text-gray-400 dark:shadow-slate-700 dark:shadow-md">
+            <div className="p-10 my-10 text-center shadow-lg rounded-xl dark:text-gray-400 dark:shadow-slate-700 dark:shadow-md hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-slate-400">
               <img
                 className="mx-auto"
                 src={code}
@@ -142,14 +142,14 @@ function App() {
               <h4 className="py-4 text-teal-600">Technologies</h4>
               <p className="py-1 text-gray-800 dark:text-gray-400">Java</p>
               <p className="py-1 text-gray-800 dark:text-gray-400">
-                JavaScript(...React)
+                JavaScript(..React)
               </p>
               <p className="py-1 text-gray-800 dark:text-gray-400">Python</p>
               <p className="py-1 text-gray-800 dark:text-gray-400">
                 HTML, CSS, Bootstrap & Tailwind CSS
               </p>
             </div>
-            <div className="p-10 my-10 text-center shadow-lg rounded-xl dark:text-gray-400 dark:shadow-slate-700 dark:shadow-md">
+            <div className="p-10 my-10 text-center shadow-lg rounded-xl dark:text-gray-400 dark:shadow-slate-700 dark:shadow-md hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-slate-400">
               <img
                 className="mx-auto"
                 src={exp}
