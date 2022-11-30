@@ -43,7 +43,7 @@ function App() {
             </ul>
           </nav>
           <div className="p-10 text-center">
-            <h2 className="py-2 text-4xl font-medium text-teal-600 md:text-6xl ">
+            <h2 className="py-2 text-3xl font-medium text-teal-600 md:text-6xl ">
               Bravin Daniel
             </h2>
             <h3 className="py-2 text-xl md:text-3xl dark:text-gray-400">
@@ -82,7 +82,7 @@ function App() {
           </div>
         </section>
         <section>
-          <div>
+          <div className="py-10">
             <h3 className="py-1 text-3xl text-center mx-auto dark:text-gray-400">
               Services I offer
             </h3>
@@ -157,6 +157,7 @@ function App() {
                 width={100}
                 height={100}
               />
+              {/* MODIFY: */}
               <h3 className="py-1 pt-8 pb-2 text-lg font-medium">Expertise</h3>
               <p className="py-2">
                 I have skills in web development, UI/UX design and MySQL
