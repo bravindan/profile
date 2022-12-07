@@ -51,8 +51,7 @@ function App() {
             </h3>
 
             <p className="py-5 leading-8 text-gray-800 text-md md:text-xl dark:text-gray-400">
-              I am a developer providing freelance services in software
-              development and designing. I am available for freelance works,
+              I am a develop and design software. I am available for freelance works,
               employment and collaboration to work on a given project.
             </p>
           </div>
