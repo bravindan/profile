@@ -14,7 +14,12 @@ import './index.css'
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
-
+  if(darkMode){
+    localStorage.setItem("!darkMode","dark");
+  }else{
+    localStorage.getItem("!darkMode");
+  }
+  
   return (
     <div className={darkMode ? "dark" : ""}>
       <main className="px-10 bg-white md:px-20 lg:px-40 dark:bg-black">
@@ -26,7 +31,8 @@ function App() {
             <ul className="flex items-center">
               <li>
                 <TiAdjustContrast
-                  onClick={() => setDarkMode(!darkMode)}
+                  onClick={() => setDarkMode(!darkMode)
+                  }
                   className="text-2xl cursor-pointer dark:text-gray-400 "
                 />
               </li>
@@ -51,8 +57,8 @@ function App() {
             </h3>
 
             <p className="py-5 leading-8 text-gray-800 text-md md:text-xl dark:text-gray-400">
-              I develop and design software. I am available for freelance works,
-              employment and collaboration to work on a given project.
+              I design and develop software. I'm available for freelance works,
+              employment and collaboration to work on any given project.
             </p>
           </div>
           <div className="flex justify-center gap-12 py-2 text-3xl text-gray-700 dark:text-teal-600 cursor-pointer">
@@ -61,7 +67,7 @@ function App() {
                 (window.location.href = "https://twitter.com/Bravin_Dan")
               }
             />
-            <AiFillInstagram onClick={(event) => (window.location.href = "")} />
+            <AiFillInstagram onClick={(event) => (window.location.href = "https://www.instagram.com/brav_dan/")} />
             <AiFillLinkedin
               onClick={(event) =>
                 (window.location.href =
